@@ -1,0 +1,5 @@
+export const ARTICLES = 'http://localhost:1337/api/articles?populate=author&populate=likes&populate=dislikes&populate=comments&populate=thumb&populate=category'
+export const ARTICLE = 'http://localhost:1337/api/articles/id?populate=author&populate=likes&populate=dislikes&populate=comments&populate=thumb&populate=category'
+export const COMMENT = 'http://localhost:1337/api/comments?populate=article&populate=user'
+export const COMMENTS_OF_ARTICLE = 'http://localhost:1337/api/comments?populate=article&populate=user&filters[article][id]=articleId'
+export const CATEGORIES = 'http://localhost:1337/api/categories'
